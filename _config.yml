@@ -1,0 +1,12 @@
+# GitHub Pages Configuration - Disable Jekyll completely
+future: false
+use_math: false
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+repository: Abdulrahman-Bahumaish/my-offical-site
+theme: null
+plugins: []
+exclude: ['.git', '.gitignore', 'README.md', 'node_modules']
+include: ['index.html', '.nojekyll']
